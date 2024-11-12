@@ -10,7 +10,7 @@
 		</div>
 		<div class="flex justify-between gap-2">
 			<a href="{base}/">Home</a>
-			<a href="{base}/about">About</a>
+			<a href="{base}/projects">Projects</a>
 		</div>
 	</nav>
 </header>
