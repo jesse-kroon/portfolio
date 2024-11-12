@@ -6,7 +6,7 @@
 </script>
 
 <Header />
-<main class="container mx-auto">
+<main class="m-4 font-mono">
 	{@render children()}
 </main>
 <Footer />
