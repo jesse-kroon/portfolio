@@ -6,7 +6,7 @@
 </script>
 
 <Header />
-<main class="m-4 flex-grow font-mono">
+<main class="m-4 flex-grow font-sans lg:container lg:m-auto lg:mt-24">
 	{@render children()}
 </main>
 <Footer />
