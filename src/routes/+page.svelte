@@ -8,7 +8,7 @@
 
 <p class="text-white">
 	As a personal project I have finally decided to create a portfolio website on which I can share
-	some of the projects I create in my free time as well as small little frontend projects I am
+	some of the projects I create in my free time as well as bite-sized frontend components I am
 	making through <a
 		href="https://www.frontendmentor.com"
 		class="text-yellow-300 hover:text-green-400">Frontend Mentor</a
@@ -16,9 +16,8 @@
 </p>
 
 <p class="text-white">
-	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum velit porro impedit mollitia
-	corrupti voluptates saepe reprehenderit aspernatur atque, iusto, cumque dolorum ab perferendis
-	suscipit quibusdam vero, id voluptate quod!
+	In my spare-time enjoy spending time with my wife and daughter, playing games ranging from video
+	games to Trading Card Games and board games and gaining knowledge in various fields.
 </p>
 
 <style>
