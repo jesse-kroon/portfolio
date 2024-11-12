@@ -9,8 +9,8 @@
 			<h1>Jesse Kroon</h1>
 		</div>
 		<div class="flex justify-between gap-2">
-			<a href="/">Home</a>
-			<a href="/about">About</a>
+			<a href="{base}/">Home</a>
+			<a href="{base}/about">About</a>
 		</div>
 	</nav>
 </header>
