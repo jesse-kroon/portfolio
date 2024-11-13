@@ -24,7 +24,7 @@
 	}: Props = $props();
 </script>
 
-<h2 class="text-bold text-lg text-white">{title}</h2>
+<h2 class="text-bold text-2xl text-white">{title}</h2>
 {#each projects as project}
 	<Project {...project} />
 {/each}
