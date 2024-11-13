@@ -1,30 +1,19 @@
 <script lang="ts">
+	import type { IProject } from '../interfaces';
 	import Project from '../Project/Project.svelte';
 	interface Props {
 		title: string;
-		projects: { title: string; url: string; description: string; technologies: string[] }[];
+		projects: IProject[];
 	}
 
-	let {
-		title = 'HI',
-		projects = [
-			{
-				title: 'Some Title',
-				url: 'https://www.whatever.com',
-				description: 'I made this with my own hands and I love it',
-				technologies: ['HTML', 'CSS']
-			},
-			{
-				title: 'Some Title',
-				url: 'https://www.whatever.com',
-				description: 'I made this with my own hands and I love it',
-				technologies: ['HTML', 'CSS']
-			}
-		]
-	}: Props = $props();
+	let { title, projects }: Props = $props();
 </script>
 
-<h2 class="text-bold text-2xl text-white">{title}</h2>
-{#each projects as project}
-	<Project {...project} />
-{/each}
+{#if projects.length > 0}
+	<h2 class="text-bold text-2xl text-white">{title}</h2>
+	<div class="gap-4 md:grid md:grid-cols-2">
+		{#each projects as project}
+			<Project {...project} />
+		{/each}
+	</div>
+{/if}

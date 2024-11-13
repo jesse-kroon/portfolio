@@ -1,20 +1,22 @@
 <script lang="ts">
-	interface Props {
-		title: string;
-		description: string;
-		url: string;
-		technologies: string[];
-	}
-	let { title, description, url, technologies }: Props = $props();
+	import type { IProject } from '../interfaces';
+
+	let { title, description, imageSrc, url, githubUrl, technologies }: IProject = $props();
 </script>
 
-<article class="m-4 bg-slate-500 p-4 text-white">
-	<h3>{title}</h3>
-	<p>{description}</p>
-	<a href={url}>Check it out</a>
-	<ul>
+<article class="my-4 flex flex-col gap-2 rounded bg-slate-500 px-8 py-4 text-white lg:max-w-lg">
+	<h3 class="text-2xl">{title}</h3>
+	<a href={url}>
+		<img src={imageSrc} alt="" class="size-auto rounded" />
+	</a>
+	<ul class="flex gap-2">
 		{#each technologies as technology}
-			<li>{technology}</li>
+			<li class="rounded bg-slate-600 px-2 py-1 text-xs">{technology}</li>
 		{/each}
 	</ul>
+	<p>{description}</p>
+	<a href={url} class="text-amber-400 hover:text-green-400">Visit page</a>
+	<a href={githubUrl} target="_blank"
+		><img src="/images/github-mark.png" alt="" class="size-10 hover:invert" /></a
+	>
 </article>
