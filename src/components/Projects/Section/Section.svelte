@@ -11,7 +11,7 @@
 
 {#if projects.length > 0}
 	<h2 class="text-bold text-2xl text-white">{title}</h2>
-	<div class="gap-4 md:grid md:grid-cols-2">
+	<div class="gap-4 md:grid md:grid-cols-2 xl:grid-cols-3">
 		{#each projects as project}
 			<Project {...project} />
 		{/each}
