@@ -9,7 +9,7 @@
 <p class="text-lg text-white">
 	As a personal project, I’ve finally decided to create a portfolio website where I can share some
 	of the projects I create in my free time, as well as bite-sized frontend components I’m building
-	through <a href="https://www.frontendmentor.com" class="text-yellow-300 hover:text-green-400"
+	through <a href="https://www.frontendmentor.io" class="text-yellow-300 hover:text-green-400"
 		>Frontend Mentor</a
 	>.
 </p>
