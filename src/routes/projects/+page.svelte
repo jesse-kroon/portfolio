@@ -12,7 +12,6 @@
 	<li>API's</li>
 	<li>Frontend Mentor components</li>
 </ul>
-
 <Section title="Web Applications" />
 <Section title="API's" />
 <Section title="Frontend Mentor components" />

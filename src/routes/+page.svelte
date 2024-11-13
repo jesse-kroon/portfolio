@@ -1,4 +1,4 @@
-<h1 class="mb-10 text-2xl text-white">Hi, I'm Jesse!</h1>
+<h1 class="mb-10 text-3xl text-white">Hi, I'm Jesse!</h1>
 <p class="text-lg text-white">
 	I currently work as a Software Development teacher in Heerlen, the Netherlands. In my free time, I
 	enjoy creating (mostly web) applications and studying front-end web development. Before becoming
