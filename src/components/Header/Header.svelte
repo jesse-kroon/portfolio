@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<header class="p-4 text-white lg:container lg:m-auto lg:px-0">
+<header class="p-4 text-white lg:container">
 	<nav class="flex justify-between">
 		<div class="flex gap-2">
 			<img class="rounded-full" src="{base}/images/profile.jpeg" alt="" width="28" height="28" />
